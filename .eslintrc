@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "eslint-config-airbnb-base",
+    "eslint-config-airbnb-base/rules/strict",
+    "plugin:react/recommended"
+  ],
+  "env": {
+    "es6": true,
+    "commonjs": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "react/prop-types": 0,
+    "no-plusplus": "off",
+    "no-continue": "off"
+  }
+}
